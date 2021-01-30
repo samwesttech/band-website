@@ -1,33 +1,27 @@
 import styled from "styled-components";
-
+//
 export const NavStyled = styled.div`
 display:flex;
-background-color:green;
-padding:2%;
+height:100%;
 
 .nav-logo{
-    background-color:red;
     width:20%;
     height:auto;
-    margin:0;
+    margin: auto;
 }
 
 .nav-center{
-    background-color:blue;
     display:flex;
-    width:auto;
+    justify-content:center;
+    width:100%;
+    height:100%;
     margin: auto;
     ;
 
-    .nav-link {
-        margin:auto;
-        
+    .nav-link{
+        margin:auto;      
     }
 
-}
-
-.nav-right {
-    margin:auto;
 }
 
 `;
