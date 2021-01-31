@@ -3,7 +3,7 @@ import { bandInfo } from "../assets/bandInfo";
 
 const PrivacyPolicy = () => {
   return (
-    <div>
+    <div style={{ width: "70%", margin: "auto", "padding-bottom": "5%" }}>
       <h1>Privacy Policy</h1>
       <p>
         Effective date: January 31, 2021Allotment Stores (“us”, “we”, or “our”)

@@ -7,8 +7,10 @@ const Footer = () => {
   return (
     <div>
       <Subscribe />
+      <br />
       <Link to="/privacy_policy">PRIVACY POLICY</Link>
       <p>Copyright © {bandInfo.name}</p>
+      <br />
     </div>
   );
 };
