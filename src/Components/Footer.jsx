@@ -8,7 +8,17 @@ const Footer = () => {
     <div>
       <Subscribe />
       <br />
-      <Link to="/privacy_policy">PRIVACY POLICY</Link>
+      <div style={{ margin: "auto" }}>
+        <Link to="/cookies" style={{ margin: "auto", "padding-right": "15%" }}>
+          COOKIES
+        </Link>
+        <Link
+          to="/privacy_policy"
+          style={{ margin: "auto", "padding-left": "15%" }}
+        >
+          PRIVACY POLICY
+        </Link>
+      </div>
       <p>Copyright © {bandInfo.name}</p>
       <br />
     </div>

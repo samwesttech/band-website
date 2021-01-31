@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../styles";
 
 const Subscribe = () => {
   return (
@@ -29,20 +30,9 @@ const Subscribe = () => {
             height: "auto",
           }}
         />
-        <button
-          style={{
-            padding: "0.75%",
-            margin: "0",
-            width: "40%",
-            height: "auto",
-            "font-size": "1.75vw",
-            "border-radius": "0",
-            color: "white",
-            "background-color": "black",
-          }}
-        >
+        <Button>
           <h2 style={{ margin: 0 }}>Submit</h2>
-        </button>
+        </Button>
       </div>
     </div>
   );

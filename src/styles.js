@@ -49,3 +49,41 @@ margin:auto;
 margin-bottom:5%;
 width:65%;
 `;
+
+export const TableStyled = styled.table`
+border: solid white 0.5px;
+
+th, td {
+    border:solid white 0.5px;
+}
+`;
+
+export const Button = styled.button`
+    padding: 0.75%;
+    margin: 0;
+    width: 40%;
+    height: auto;
+    font-size: 1.75vw;
+    border-radius: 0;
+    color: white;
+    background-color: black;
+    transition-timing-function:ease-in-out;
+    transition:0.3s;
+
+    :hover {
+        color:black;
+        background-color:white;
+        
+    }
+`;
+
+export const ImageGrow = styled.img`
+width: auto;
+margin: 10% auto;
+transition-timing-function:ease-in-out;
+transition:1s;
+
+:hover {
+    transform:scale(2)
+}
+`;

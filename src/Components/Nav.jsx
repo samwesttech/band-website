@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 import { NavStyled } from "../styles";
-import logo from "../assets/logo.png";
+import { bandInfo } from "../assets/bandInfo";
 
 const Nav = () => {
   return (
@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="nav-logo">
         <Link to="/">
           <img
-            src={logo}
+            src={bandInfo.logo}
             alt="band logo"
             style={{
               height: "100%",
@@ -19,9 +19,6 @@ const Nav = () => {
         </Link>
       </div>
       <div className="nav-center">
-        <Link className="nav-link" to="/">
-          <h1>Home</h1>
-        </Link>
         <Link className="nav-link" to="/music">
           <h1>Music</h1>
         </Link>

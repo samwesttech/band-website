@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Social from "./Components/Social";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
+import Cookies from "./Components/Cookies";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Gallery path="/gallery" />
         <Contact path="/contact" />
         <PrivacyPolicy path="/privacy_policy"/>
+        <Cookies path="/cookies" />
       </Router>
     </div>
   );
