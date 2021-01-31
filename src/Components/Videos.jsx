@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
 
-const Contact = () => {
+const Videos = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <h1>Videos</h1>
       <Footer />
     </div>
   );
 };
 
-export default Contact;
+export default Videos;

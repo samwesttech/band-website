@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
 
-const Contact = () => {
+const Music = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <h1>Music Page</h1>
       <Footer />
     </div>
   );
 };
 
-export default Contact;
+export default Music;

@@ -1,10 +1,13 @@
 import React from "react";
+import { bandInfo } from "../assets/bandInfo";
+import { AboutStyled } from "../styles";
 
 const About = () => {
   return (
-    <div>
+    <AboutStyled>
       <h1>About</h1>
-    </div>
+      <p>{bandInfo.description}</p>
+    </AboutStyled>
   );
 };
 

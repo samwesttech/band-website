@@ -1,22 +1,27 @@
 import './App.css';
 import {Router} from "@reach/router";
 import Nav from './Components/Nav';
-import About from './Components/About';
-import Shop from './Components/Shop';
+import Videos from './Components/Videos';
+import Music from './Components/Music';
 import Gallery from './Components/Gallery';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
+import Social from "./Components/Social";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
+
 
 function App() {
   return (
     <div className="App">
       <Nav/>
+      <Social />
       <Router>
         <Home path="/" />
-        <About path="/about" />
-        <Shop path="/shop" />
+        <Music path="/music" />
+        <Videos path="/videos" />
         <Gallery path="/gallery" />
-        <Contact path ="/contact" />
+        <Contact path="/contact" />
+        <PrivacyPolicy path="/privacy_policy"/>
       </Router>
     </div>
   );
