@@ -16,7 +16,7 @@ const Subscribe = () => {
           height: "auto",
           display: "flex",
           margin: "auto",
-          "justify-content": "center",
+          justifyContent: "center",
         }}
       >
         <input

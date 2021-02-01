@@ -1,8 +1,6 @@
 import logo from "./logo.png";
 import homepageImage from "./homepageImage.jpg";
 
-
-
 export const bandInfo = {
     name: "Talking Heads",
     origin: "New York City, New York, U.S.",

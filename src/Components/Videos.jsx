@@ -15,7 +15,7 @@ const Videos = () => {
             <li style={{ "list-style-type": "none" }}>
               <ReactPlayer
                 url={video}
-                controls="true"
+                controls={true}
                 width="auto"
                 style={{ margin: "10% 15%" }}
               />

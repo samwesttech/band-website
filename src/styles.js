@@ -58,6 +58,8 @@ th, td {
 }
 `;
 
+
+
 export const Button = styled.button`
     padding: 0.75%;
     margin: 0;
@@ -87,3 +89,5 @@ transition:1s;
     transform:scale(2)
 }
 `;
+
+

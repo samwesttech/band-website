@@ -9,12 +9,12 @@ const Footer = () => {
       <Subscribe />
       <br />
       <div style={{ margin: "auto" }}>
-        <Link to="/cookies" style={{ margin: "auto", "padding-right": "15%" }}>
+        <Link to="/cookies" style={{ margin: "auto", paddingRight: "15%" }}>
           COOKIES
         </Link>
         <Link
           to="/privacy_policy"
-          style={{ margin: "auto", "padding-left": "15%" }}
+          style={{ margin: "auto", paddingLeft: "15%" }}
         >
           PRIVACY POLICY
         </Link>

@@ -25,7 +25,7 @@ const Home = () => {
         <h1>Latest Content</h1>
         <ReactPlayer
           url={bandInfo.videos[0]}
-          controls="true"
+          controls={true}
           width="auto"
           style={{ margin: "5% 15%" }}
         />
